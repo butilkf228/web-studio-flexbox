@@ -177,3 +177,30 @@ html {
   box-sizing: inherit;
 }
 
+.container.header {
+  display: flex;
+}
+
+.contaoner.header nav {
+  display: flex;
+}
+
+.nav-link-1 {
+  display: flex;
+  margin-left: 93px;
+}
+
+.y {
+  display:flex;
+  margin-left: auto;
+}
+
+.df {
+  display: flex;
+  justify-content:  ;
+}
+
+.fg {
+  width: 270px;
+}
+
