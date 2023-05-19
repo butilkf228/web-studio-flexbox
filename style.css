@@ -88,6 +88,7 @@ h1 {
 }
 
 .hero-button {
+  border: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
@@ -96,10 +97,8 @@ h1 {
 
   color: var(--background-color);
   background-color: var(--accent-color);
-
-  display: flex;
-  align-items: center;
-  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   letter-spacing: 0.06em;
 }
 
@@ -141,17 +140,11 @@ footer > :nth-child(3) {
   color: var(--name-60-color);
 }
 
-.container {
+.container-2 {
   width: 1170px;
-  outline: solid 1px red;
   margin-left: auto;
   margin-right: auto;
-}
-
-.qwer {
-  outline: solid 1px red;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  text-align: center;
 }
 
 ul,
@@ -179,13 +172,13 @@ html {
 
 .container.header {
   display: flex;
-  padding-top:24px;
+  padding-top: 24px;
   padding-bottom: 25px;
   justify-content: center;
   align-items: center;
 }
 
-.contaoner.header nav {
+.container.header nav {
   display: flex;
 }
 
@@ -195,13 +188,13 @@ html {
 }
 
 .y {
-  display:flex;
+  display: flex;
   margin-left: auto;
 }
 
 .df {
   display: flex;
-  justify-content:  center;
+  justify-content: center;
 }
 
 .fg {
@@ -216,5 +209,44 @@ html {
 nav-link {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.f {
+  width: 696px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.qwer{
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: auto;
+  color: var(--background-color);
+  background-color: var(--hero-background-color);
+  text-align: center;
+}
+
+.asdfv {
+  width: 270px;
+}
+
+.qwwq {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
 }
 
